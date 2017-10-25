@@ -32,13 +32,15 @@
           test: /\.(scss|sass)$/,
           use: ExtractTextPlugin.extract({
             fallback: "style-loader",
-            use: [{
-              loader: "css-loader"
-            }, {
-              loader: "sass-loader"
-            }],
+            use: ["css-loader", "sass-loader"],
           })
         },
+        { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+          loader: "url-loader?limit=10000&mimetype=application/font-woff"
+        },
+        { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+          loader: "file-loader"
+        }
       ]
     },
     plugins: [
