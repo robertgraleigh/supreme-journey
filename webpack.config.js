@@ -2,6 +2,7 @@
   "use strict";
   const path = require('path');
   const webpack = require('webpack');
+  const HtmlWebpackPlugin = require("html-webpack-plugin");
   const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
   const config = {
@@ -44,6 +45,11 @@
       ]
     },
     plugins: [
+      new HtmlWebpackPlugin({
+        title: 'Index Page',
+        filename: 'index.html',
+        template: './src/index.html'
+      }),
       new ExtractTextPlugin({
         filename: '[name].[hash].css'
       })

@@ -1,13 +1,6 @@
-
-// Foundation
-
-
-// GOOGLE FONTS
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400');
-
 // FOUNDATION
-@import '~foundation-sites/scss/settings/_settings.scss';
+@import "settings";
+//@import '~foundation-sites/scss/settings/_settings.scss';
 // @import "~foundation-sites/scss/foundation";
 @import '~foundation-sites/scss/foundation/';
 @import "~motion-ui/src/motion-ui";
