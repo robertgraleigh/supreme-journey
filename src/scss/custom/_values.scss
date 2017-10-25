@@ -1,0 +1,14 @@
+// values.scss
+$values-bg-color: #FFFFFF;
+$values-border-top: #CCCCCC;
+$values-border-bottom: #CCCCCC;
+$values-margin-top: 20px;
+$values-margin-bottom: 0px;
+
+.values {
+  background-color: $values-bg-color;
+  margin-top: $values-margin-top;
+  margin-bottom: $values-margin-bottom;
+  border-top: solid 1px $values-border-top;
+  border-bottom: solid 1px $values-border-bottom;
+}

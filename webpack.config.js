@@ -11,7 +11,7 @@
     },
     output: {
       filename: '[name].bundle.js',
-      path: path.resolve(__dirname, './dist')
+      path: path.resolve(__dirname, './build')
     },
     module: {
       rules: [
@@ -44,6 +44,7 @@
         }
       ]
     },
+    watch: true,
     plugins: [
       new HtmlWebpackPlugin({
         title: 'Index Page',
@@ -51,7 +52,7 @@
         template: './src/index.html'
       }),
       new ExtractTextPlugin({
-        filename: '[name].[hash].css'
+        filename: '[name].css'
       })
     ]
   };

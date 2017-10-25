@@ -11,6 +11,110 @@
     left: auto;
     margin: 0 auto; } }
 
+.primary-nav {
+  background-color: #FFFFFF !important; }
+
+.topbar {
+  background-color: #FFFFFF !important; }
+
+.topbar ul menu {
+  background-color: #FF0000; }
+
+.top-bar-left {
+  background-color: #FFFFFF; }
+
+.top-bar-right {
+  background-color: #FFFFFF; }
+
+.hero {
+  background-color: #0075BD;
+  color: #CCCCCC; }
+
+.values {
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border-top: solid 1px #CCCCCC;
+  border-bottom: solid 1px #CCCCCC; }
+
+.product-bar {
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: solid 1px #CCCCCC;
+  border-bottom: solid 1px #CCCCCC; }
+
+.product-bar ul li a {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0075BD; }
+
+.product-bar a:active {
+  color: #0075BD; }
+
+.product-bar a:hover {
+  text-decoration: underline; }
+
+.product-card {
+  background-color: #fefefe;
+  border: 1px solid #e6e6e6;
+  padding: 1rem;
+  margin-bottom: 1.5rem; }
+
+.product-card-thumbnail {
+  display: block;
+  position: relative; }
+
+.product-card-title {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.45rem;
+  margin-top: 1rem;
+  margin-bottom: 0; }
+
+.product-card-desc {
+  color: #8a8a8a;
+  display: block;
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.85rem; }
+
+.product-card-price {
+  color: #3e3e3e;
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 0.8rem; }
+
+.product-card-sale {
+  color: #cacaca;
+  display: inline-block;
+  font-size: 0.85rem;
+  margin-left: 0.3rem;
+  text-decoration: line-through; }
+
+.product-card-colors {
+  display: block;
+  margin-top: 0.8rem; }
+
+.product-card-color-option {
+  display: inline-block;
+  height: 25px;
+  width: 25px; }
+
+footer {
+  background-color: #FFFFFF !important;
+  border-top: solid 1px #CCCCCC;
+  border-bottom: solid 1px #CCCCCC;
+  color: #000000; }
+
+.copyright {
+  background-color: #0075BD;
+  color: #CCCCCC; }
+
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
        ========================================================================== */

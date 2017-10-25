@@ -1,0 +1,9 @@
+// copyright partial copyright.scss
+$copyright-display-text: Georgia, Times New Roman, sans-serif;
+$copyright-display-text-color: #CCCCCC;
+$copyright-background-color: #0075BD;
+
+.copyright {
+  background-color: $copyright-background-color;
+  color: $copyright-display-text-color;
+}

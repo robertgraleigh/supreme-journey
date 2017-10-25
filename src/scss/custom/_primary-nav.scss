@@ -1,0 +1,29 @@
+//topbar partial _topbar.scss
+
+$primary-nav-bg-color: #FFFFFF !important;
+$topbar-bg-color: #FFFFFF !important;
+$topbar-ul-bg-color: #FF0000;
+$topbar-display-text-color: #000000;
+$topbar-link-color: #FF0000;
+$topbar-link-hover-color: #990000;
+$topbar-left-bg-color: #FFFFFF;
+$topbar-right-bg-color: #FFFFFF;
+
+.primary-nav {
+  background-color: $primary-nav-bg-color;
+}
+.topbar {
+  background-color: $topbar-bg-color;
+}
+
+.topbar ul menu {
+  background-color: $topbar-ul-bg-color;
+}
+
+.top-bar-left {
+  background-color: $topbar-left-bg-color;
+}
+
+.top-bar-right {
+  background-color: $topbar-right-bg-color;
+}

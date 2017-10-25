@@ -1,9 +1,20 @@
 // FOUNDATION
-@import "settings";
-//@import '~foundation-sites/scss/settings/_settings.scss';
+
+// @import '~foundation-sites/scss/settings/_settings.scss';
 // @import "~foundation-sites/scss/foundation";
 @import '~foundation-sites/scss/foundation/';
 @import "~motion-ui/src/motion-ui";
+@import "custom/settings";
+
+//CUSTOM COMPONENTS
+//@import "custom/example-component";
+@import "custom/primary-nav";
+@import "custom/hero";
+@import "custom/values";
+@import "custom/product-bar";
+@import "custom/product-card";
+@import "custom/footer";
+@import "custom/copyright";
 
 @include foundation-global-styles;
 @include foundation-xy-grid-classes;
@@ -52,6 +63,3 @@
 
 //FONT AWESOME
 //@import "~font-awesome/scss/font-awesome";
-
-//CUSTOM COMPONENTS
-//@import "components/example-component";

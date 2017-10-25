@@ -1,0 +1,36 @@
+// product bar component: _product-bar.scss
+
+// product-bar variables
+$product-bar-bg-color: #FFFFFF;
+$product-bar-link-color: #0075BD;
+$product-bar-margin-top: 20px;
+$product-bar-margin-bottom: 20px;
+$product-bar-padding-top: 20px;
+$product-bar-padding-bottom: 20px;
+$product-bar-border-top: #CCCCCC;
+$product-bar-border-bottom: #CCCCCC;
+
+.product-bar {
+  background-color: $product-bar-bg-color;
+  margin-top: $product-bar-margin-top;
+  margin-bottom: $product-bar-margin-bottom;
+  padding-top: $product-bar-padding-top;
+  padding-bottom: $product-bar-padding-bottom;
+  border-top: solid 1px $product-bar-border-top;
+  border-bottom: solid 1px $product-bar-border-bottom;
+}
+
+.product-bar ul li a {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: $product-bar-link-color;
+}
+
+.product-bar a:active {
+  color: $product-bar-link-color;
+}
+
+.product-bar a:hover {
+  text-decoration: underline;
+}
