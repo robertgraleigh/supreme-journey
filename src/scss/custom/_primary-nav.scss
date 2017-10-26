@@ -1,6 +1,8 @@
 //topbar partial _topbar.scss
 
 $primary-nav-bg-color: #FFFFFF !important;
+$primary-nav-font-family: Helvetica, Arial, sans-serif;
+$primary-nav-font-size: 16px;
 $topbar-bg-color: #FFFFFF !important;
 $topbar-ul-bg-color: #FF0000;
 $topbar-display-text-color: #000000;
@@ -12,11 +14,16 @@ $topbar-right-bg-color: #FFFFFF;
 .primary-nav {
   background-color: $primary-nav-bg-color;
 }
-.topbar {
+
+nav, .top-bar {
   background-color: $topbar-bg-color;
 }
 
-.topbar ul menu {
+.top-bar ul {
+  background-color: $topbar-bg-color;
+}
+
+.top-bar ul menu {
   background-color: $topbar-ul-bg-color;
 }
 
@@ -26,4 +33,24 @@ $topbar-right-bg-color: #FFFFFF;
 
 .top-bar-right {
   background-color: $topbar-right-bg-color;
+}
+
+.top-bar ul li a {
+  font-family: $primary-nav-font-family;
+  font-size: $primary-nav-font-size;
+  font-weight: bold;
+}
+
+.top-bar ul li a:hover {
+  font-family: $primary-nav-font-family;
+  font-size: $primary-nav-font-size;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.top-bar ul li a:active {
+  font-family: $primary-nav-font-family;
+  font-size: $primary-nav-font-size;
+  font-weight: bold;
+  text-decoration: underline;
 }

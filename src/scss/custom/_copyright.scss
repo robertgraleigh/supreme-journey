@@ -1,9 +1,17 @@
 // copyright partial copyright.scss
+$copyright-padding-top: 20px;
+$copyright-padding-bottom: 15px;
 $copyright-display-text: Georgia, Times New Roman, sans-serif;
-$copyright-display-text-color: #CCCCCC;
-$copyright-background-color: #0075BD;
+$copyright-display-text-color: #666666;
+$copyright-background-color: #222222;
 
 .copyright {
+  padding-top: $copyright-padding-top;
+  padding-bottom: $copyright-padding-bottom;
   background-color: $copyright-background-color;
   color: $copyright-display-text-color;
+}
+
+.copyright img {
+  margin-top: 20px;
 }

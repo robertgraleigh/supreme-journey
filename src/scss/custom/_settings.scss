@@ -60,10 +60,6 @@
 //  55. Top Bar
 //  56. Xy Grid
 
-// GOOGLE FONTS
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400');
-
 @import '~foundation-sites/scss/util/util';
 
 // 1. Global
@@ -134,8 +130,8 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
-$header-font-weight: 100;
+$header-font-family: 'Rubik', 'Helvetica', 'Arial', sans-serif;
+$header-font-weight: 700;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;

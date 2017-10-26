@@ -1,11 +1,13 @@
 // hero partial _hero.scss
-$hero-display-text: Georgia, Times New Roman, sans-serif;
+$hero-heading-font-family: 'Rubik', sans-serif;
+$hero-heading-font-color: #FFFFFF;
+$hero-display-text: 'Georgia', 'Times New Roman', sans-serif;
 $hero-display-text-color: #CCCCCC;
 $hero-background-color: #0075BD;
-$hero-background-image: url('http://placehold.it/1000x2000');
+$hero-background-image: url('http://placehold.it/1000x1000');
 
 .hero {
   background-color: $hero-background-color;
   //background-image: $hero-background-image;
-  color: $hero-display-text-color;
+  color: $hero-heading-font-color;
 }

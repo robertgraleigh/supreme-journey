@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,400);@charset "UTF-8";
+@charset "UTF-8";
 /**
  * Foundation for Sites by ZURB
  * Version 6.4.4-rc1
@@ -14,10 +14,13 @@
 .primary-nav {
   background-color: #FFFFFF !important; }
 
-.topbar {
+nav, .top-bar {
   background-color: #FFFFFF !important; }
 
-.topbar ul menu {
+.top-bar ul {
+  background-color: #FFFFFF !important; }
+
+.top-bar ul menu {
   background-color: #FF0000; }
 
 .top-bar-left {
@@ -26,14 +29,42 @@
 .top-bar-right {
   background-color: #FFFFFF; }
 
+.top-bar ul li a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold; }
+
+.top-bar ul li a:hover {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline; }
+
+.top-bar ul li a:active {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline; }
+
 .hero {
   background-color: #0075BD;
-  color: #CCCCCC; }
+  color: #FFFFFF; }
+
+.about {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: solid 1px #CCCCCC;
+  border-bottom: solid 1px #CCCCCC;
+  background-color: #FFFFFF; }
 
 .values {
   background-color: #FFFFFF;
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-top: solid 1px #CCCCCC;
   border-bottom: solid 1px #CCCCCC; }
 
@@ -105,15 +136,25 @@
   height: 25px;
   width: 25px; }
 
-footer {
-  background-color: #FFFFFF !important;
+.product-card-button {
+  padding-top: 20px; }
+
+.primary-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #222222 !important;
   border-top: solid 1px #CCCCCC;
   border-bottom: solid 1px #CCCCCC;
-  color: #000000; }
+  color: #CCCCCC; }
 
 .copyright {
-  background-color: #0075BD;
-  color: #CCCCCC; }
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background-color: #222222;
+  color: #666666; }
+
+.copyright img {
+  margin-top: 20px; }
 
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
@@ -2686,9 +2727,9 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", "Helvetica", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 700;
   color: inherit;
   text-rendering: optimizeLegibility; }
   h1 small, .h1 small,
