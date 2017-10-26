@@ -47,7 +47,16 @@ nav, .top-bar {
   text-decoration: underline; }
 
 .hero {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   background-color: #0075BD;
+  color: #FFFFFF; }
+
+.hero-tagline {
+  padding-top: 20px;
+  padding-bottom: 0px;
   color: #FFFFFF; }
 
 .about {
