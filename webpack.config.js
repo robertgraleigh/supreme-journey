@@ -4,6 +4,7 @@
   const webpack = require('webpack');
   const HtmlWebpackPlugin = require("html-webpack-plugin");
   const ExtractTextPlugin = require("extract-text-webpack-plugin");
+  const CopyWebpackPlugin = require("copy-webpack-plugin");
 
   const config = {
     entry: {
@@ -41,6 +42,18 @@
         },
         { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
           loader: "file-loader"
+        },
+        {
+          test: /\.(png|jpg|jpeg|gif|svg)/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                name: '[path][name].[ext]',
+                outputPath: 'img/'
+              }
+            }
+          ]
         }
       ]
     },
@@ -53,7 +66,13 @@
       }),
       new ExtractTextPlugin({
         filename: '[name].css'
-      })
+      }),
+      new CopyWebpackPlugin([
+        {
+          from: 'src/img',
+          to: 'img'
+        }
+      ])
     ]
   };
   module.exports = config;
