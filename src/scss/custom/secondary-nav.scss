@@ -1,0 +1,11 @@
+// secondary-nav.scss
+
+$secondary-nav-bg-color: #000000 !important;
+$secondary-nav-font-family: Helvetica, Arial, sans-serif;
+$secondary-nav-font-size: 16px;
+
+.secondary-nav {
+  background-color: $primary-nav-bg-color;
+  font-family: $secondary-nav-font-family;
+  font-size: $secondary-nav-font-size;
+}

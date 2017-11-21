@@ -3,7 +3,7 @@
   const path = require('path');
   const webpack = require('webpack');
   const HtmlWebpackPlugin = require("html-webpack-plugin");
-  const ExtractTextPlugin = require("extract-text-webpack-plugin");
+  const ExtractTextWebpackPlugin = require("extract-text-webpack-plugin");
   const CopyWebpackPlugin = require("copy-webpack-plugin");
 
   const config = {
@@ -32,7 +32,7 @@
         },
         {
           test: /\.(scss|sass)$/,
-          use: ExtractTextPlugin.extract({
+          use: ExtractTextWebpackPlugin.extract({
             fallback: "style-loader",
             use: ["css-loader", "sass-loader"],
           })
@@ -64,8 +64,13 @@
         filename: 'index.html',
         template: './src/index.html'
       }),
-      new ExtractTextPlugin({
-        filename: '[name].css'
+      new HtmlWebpackPlugin({
+        title: 'Cart',
+        filename: 'cart.html',
+        template: './src/cart.html'
+      }),
+      new ExtractTextWebpackPlugin({
+        filename: 'css/[name].css'
       }),
       new CopyWebpackPlugin([
         {

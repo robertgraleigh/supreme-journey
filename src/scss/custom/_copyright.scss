@@ -3,7 +3,7 @@ $copyright-padding-top: 20px;
 $copyright-padding-bottom: 15px;
 $copyright-display-text: Georgia, Times New Roman, sans-serif;
 $copyright-display-text-color: #666666;
-$copyright-background-color: #222222;
+$copyright-background-color: #0070C0;
 
 .copyright {
   padding-top: $copyright-padding-top;
@@ -14,4 +14,8 @@ $copyright-background-color: #222222;
 
 .copyright img {
   margin-top: 20px;
+}
+
+.copyright p {
+  color: #FCFCFC;
 }
