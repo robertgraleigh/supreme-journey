@@ -30,21 +30,31 @@ nav, .top-bar {
   background-color: #FFFFFF; }
 
 .top-bar ul li a {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-transform: uppercase; }
 
 .top-bar ul li a:hover {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   font-weight: bold;
   text-decoration: underline; }
 
 .top-bar ul li a:active {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   font-weight: bold;
   text-decoration: underline; }
+
+.site-title {
+  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-transform: uppercase; }
+
+a.site-title:hover {
+  color: #000000; }
 
 .secondary-nav {
   background-color: #FFFFFF !important;
