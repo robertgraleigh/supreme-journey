@@ -48,8 +48,13 @@ nav, .top-bar {
 
 .secondary-nav {
   background-color: #FFFFFF !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase; }
 
 .hero {
   margin-top: 0px;
@@ -65,13 +70,16 @@ nav, .top-bar {
   color: #FFFFFF; }
 
 .about {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: solid 1px #CCCCCC;
   border-bottom: solid 1px #CCCCCC;
   background-color: #FFFFFF; }
+
+.gallery-thumbnail {
+  margin-bottom: 20px; }
 
 .values {
   background-color: #FFFFFF;
@@ -154,24 +162,26 @@ nav, .top-bar {
   padding-top: 20px; }
 
 .primary-footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #0070C0 !important;
-  border-top: solid 1px #CCCCCC;
-  border-bottom: solid 1px #CCCCCC;
   color: #CCCCCC; }
 
 .copyright {
   padding-top: 20px;
   padding-bottom: 15px;
-  background-color: #0070C0;
+  background-color: #333333;
   color: #666666; }
 
 .copyright img {
   margin-top: 20px; }
 
 .copyright p {
-  color: #FCFCFC; }
+  color: #FFFFFF; }
+
+.copyright span {
+  color: #FFFFFF;
+  padding-left: 0px; }
 
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
@@ -606,7 +616,7 @@ body {
   margin: 0;
   padding: 0;
   background: #f8f9fa;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -2744,7 +2754,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Rubik", "Helvetica", "Arial", sans-serif;
+  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
   color: inherit;

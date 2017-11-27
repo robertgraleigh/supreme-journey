@@ -3,9 +3,13 @@
 $secondary-nav-bg-color: #000000 !important;
 $secondary-nav-font-family: Helvetica, Arial, sans-serif;
 $secondary-nav-font-size: 16px;
+$secondary-nav-padding-top: 40px;
+$secondary-nav-padding-bottom: 40px;
 
 .secondary-nav {
   background-color: $primary-nav-bg-color;
+  padding-top: $secondary-nav-padding-top;
+  padding-bottom: $secondary-nav-padding-bottom;
   font-family: $secondary-nav-font-family;
   font-size: $secondary-nav-font-size;
 }

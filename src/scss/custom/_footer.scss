@@ -1,17 +1,13 @@
 //topbar partial _topbar.scss
 
-$primary-footer-padding-top: 20px;
-$primary-footer-padding-bottom: 20px;
+$primary-footer-padding-top: 40px;
+$primary-footer-padding-bottom: 40px;
 $primary-footer-bg-color: #0070C0 !important;
 $primary-footer-display-text-color: #CCCCCC;
-$primary-footer-border-top-color: #CCCCCC;
-$primary-footer-border-bottom-color: #CCCCCC;
 
 .primary-footer {
   padding-top: $primary-footer-padding-top;
   padding-bottom: $primary-footer-padding-bottom;
   background-color: $primary-footer-bg-color;
-  border-top: solid 1px $primary-footer-border-top-color;
-  border-bottom: solid 1px $primary-footer-border-bottom-color;
   color: $primary-footer-display-text-color;
 }
