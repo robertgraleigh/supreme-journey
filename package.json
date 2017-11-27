@@ -4,7 +4,8 @@
   "description": "A basic static site starter package",
   "main": "app.js",
   "scripts": {
-    "start": "",
+    "env": "env",
+    "clean": "rm -r dist/*",
     "build": "webpack",
     "test": "test"
   },
