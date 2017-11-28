@@ -4,14 +4,15 @@
 // @import "~foundation-sites/scss/foundation";
 @import '~foundation-sites/scss/foundation/';
 @import "~motion-ui/src/motion-ui";
-@import "custom/settings";
 
 //CUSTOM COMPONENTS
 //@import "custom/example-component";
+@import "custom/settings";
 @import "custom/primary-nav";
 @import "custom/secondary-nav";
 @import "custom/headings";
 @import "custom/hero";
+@import "custom/fonts";
 @import "custom/about";
 @import "custom/gallery";
 @import "custom/values";
