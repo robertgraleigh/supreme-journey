@@ -59,6 +59,10 @@
     },
     watch: true,
     plugins: [
+      new webpack.ProvidePlugin({
+        $: 'jquery',
+        jQuery: 'jquery'
+      }),
       new HtmlWebpackPlugin({
         title: 'Index Page',
         filename: 'index.html',

@@ -14543,7 +14543,7 @@ Tabs.defaults = {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+/* WEBPACK VAR INJECTION */(function($) {
 
 __webpack_require__(20);
 
@@ -14570,6 +14570,7 @@ import { Foundation } from 'foundation-sites/js/foundation.core.js';
 // main app.js entry file
 
 // import main scss file
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
 /* 20 */

@@ -1,0 +1,13 @@
+// collections.scss
+
+$collections-margin-top: 0px;
+$collections-margin-bottom: 0px;
+$collections-padding-top: 40px;
+$collections-padding-bottom: 40px;
+$collections-bg-color: #FFFFFF;
+
+.collections {
+  background-color: $collections-bg-color;
+  padding-top: $collections-padding-top;
+  padding-bottom: $collections-padding-bottom;
+}
